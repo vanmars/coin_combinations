@@ -18,25 +18,20 @@ class Counter
         @q_count += 1
       end
       @totalChange -= @quarter * @q_count
-
       until @dime * @d_count > @totalChange - @dime do
         @d_count += 1
       end
       @totalChange -= @dime * @d_count
-    
       until @nickel * @n_count > @totalChange - @nickel do
         @n_count += 1
       end
       @totalChange -= @nickel * @n_count
-
       until @penny * @p_count > @totalChange - @penny do
         @p_count += 1
       end
       @totalChange -= @penny * @p_count
       return "Total Quarters: #{q_count}, Total Dimes: #{d_count}, Total Nickels: #{n_count}, Total Pennies: #{p_count}"
     end
+    
 end
-  # until dime * d_count > totalChange do
-  #   d_count += 1
-  #   totalChange -= dime
 

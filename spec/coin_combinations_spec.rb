@@ -26,4 +26,5 @@ describe ('Counter#change_count') do
     counter.change_count()
     expect(counter.p_count).to(eq(1))
   end
+  
 end
