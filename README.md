@@ -1,4 +1,4 @@
-# _Coin combinations_
+# _Coin Combinations_
 
 _24 September 2020_
 
